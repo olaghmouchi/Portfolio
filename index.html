@@ -1,27 +1,28 @@
  <!DOCTYPE html>
-<html>
+<html lang="eng">
 	<head>
 		<title>Portfolio Oussama Laghmouchi</title>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" href="./css/normalize.css">
+		<link rel="stylesheet" href="./css/style.css">
 	</head>
 <body>
-	<header id="nav">
+	<header>
 		<h1>Oussama Laghmouchi</h1>
 	</header>
 
 	<nav>
 		<ul>
-			<li><a href="#about">About</a></li>
-			<li><a href="#skills">Skills</a></li>
-			<li><a href="#project">My Experience</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a>About</a></li>
+			<li><a>Skills</a></li>
+			<li><a>My Experience</a></li>
+			<li><a>Contact</a></li>
 		</ul>
 	</nav>
 	
-	<section id="about">
+	<div class="about">
 		
-		<h2><a href="#nav">About</a></h2>
+		<h2><a>About</a></h2>
 			<p>
 				My name is Oussama Laghmouchi. I'm 18 years old.
 				My hobby is playing football. I'm a student of the ROC Mondriaan
@@ -43,46 +44,40 @@
 				<li><a href="mailto:o.laghmouchi@gmail.com?subject=portfolio">Click here to mail me</a></li>	
 			</ul>
 		</div>
-	</section>
-	<div class="foto">
 	</div>
-	<section id="skills">
+	<div class="photo">
+	</div>
+	<div class="skills">
 		<h2><a href="#nav">Skills</a></h2>
 		<ul>
-			<li><img src="images/html.png">
-				<ul>
-					<li>Moderate</li>
-				</ul>
+			<li>
+				<img src="images/html.png">
+				<span>Moderate</span>
 			</li>			
-			<li><img src="images/css3.png">
-				<ul>
-					<li>Moderate</li>
-				</ul>
+			<li>
+				<img src="images/css3.png">
+				<span>Moderate</span>
 			</li>
-			<li><img src="images/js.png">
-				<ul>
-					<li>Basic</li>
-				</ul>
+			<li>
+				<img src="images/js.png">
+				<span>Basic</span>
 			</li>
-			<li><img src="images/php.png">
-				<ul>
-					<li>Basic</li>
-				</ul>
+			<li>
+				<img src="images/php.png">
+				<span>Basic</span>
 			</li>
-			<li><img src="images/angular.png">
-				<ul>
-					<li>Basic</li>
-				</ul>
+			<li>
+				<img src="images/angular.png">
+				<span>Basic</span>
 			</li>
-			<li><img src="images/mysql.png">
-				<ul>
-					<li>Basic</li>
-				</ul>
+			<li>
+				<img src="images/mysql.png">
+				<span>Basic</span>
 			</li>
 		</ul>
-	</section>
+	</div>
 	
-	<section id="project">
+	<div class="project">
 		<h2><a href="#nav">My Experience</a></h2>
 		<ul>
 			<li><h3>Hoger Lager</h3><img class="hoverImage" src="images/hogerlager.png"><span>
@@ -119,42 +114,29 @@
 								Whith this application the students can make their own schedule.</span>
 			</li>
 		</ul>
-	</section>
+	</div>
 	
-	<section id="contact">
+	<div class="contact">
 		<h2><a href="#nav">Contact</a></h2>
 		<span class="warningMessage"></span>
 		<form name="contactForm">
 			<table>
-				<tr>
-					<td>
-						<tr class="contact_item">First name:
-							<input  class="contact_item" type="text" name="firstname" maxlength="50" size="30"/>
-						</tr>
-					</td>
-					
-					<td>
-						<tr class="contact_item">Last name:	
-							<input class="contact_item" type="text" name="lastname" maxlength="50" size="30"/>
-						</tr>
-					</td>
-					
-					<td>
-						<tr class="contact_item">E-mail:
-							<input class="contact_item" type="text" name="email" maxlength="80" size="30"/>
-						</tr>
-					</td>
-					
-					<td>
-						<tr class="contact_item">Phone number:
-							<input class="contact_item" type="text" name="number" maxlength="30" size="30"/>
-						</tr>
-					</td>
-					<input class="contact_item" type="button" name="submit" value="Submit"/>
-				</tr>	
+				<label class="contact_item">First name: </label>
+				<input  class="contact_item" type="text" name="firstname" maxlength="50" size="30"/>
+			
+				<label class="contact_item">Last name: </label>	
+				<input class="contact_item" type="text" name="lastname" maxlength="50" size="30"/>
+				
+				<label class="contact_item">E-mail: </label>
+				<input class="contact_item" type="text" name="email" maxlength="80" size="30"/>
+				
+				<label class="contact_item">Phone number: </label>
+				<input class="contact_item" type="text" name="number" maxlength="30" size="30"/>
+				
+				<input class="contact_item" type="button" name="submit" value="Submit"/>				
 			</table>
 		</form>
-	</section>
+	</div>
 	<footer>
 		Portfolio Oussama Laghmouchi
 	</footer>
