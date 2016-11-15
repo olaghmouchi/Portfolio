@@ -1,4 +1,16 @@
 
+	function scrollToSkills()
+	{
+		window.scroll(0,601);
+	}
+	function scrollToExp()
+	{
+		window.scroll(0,768);
+	}
+	function scrollToContact()
+	{
+		window.scroll(0,2005);
+	}
 	document.getElementsByName('submit')[0].onclick = function()
 	{
 		if(checkContact())
@@ -8,8 +20,7 @@
 		else 
 		{
 			document.querySelector(".warningMessage").innerHTML = "Controleer ingevoerde gegevens.";
-		}
-		
+		}	
 	};
 
 	function checkContact()

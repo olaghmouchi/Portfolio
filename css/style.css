@@ -35,11 +35,12 @@ h3{
 
 nav{
 	margin: 25px auto;
-	max-width: 350px;
+	max-width: 280px;
 	background: #ADADAD;
 	border: 2px solid;
 	border-radius: 10px;
 	font:15px arial;
+	cursor:pointer;
 }
 
 nav ul{
