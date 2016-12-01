@@ -5,7 +5,7 @@
 }
 
 body{
-	background-color: white;
+	background-color: #FFFFFF;
 }
 
 header{
@@ -15,21 +15,21 @@ header{
 }
 
 h1{
-	color:white;
-	padding-top:75px;
+	color:#FFFFFF;
+	padding:75px 0px 0px 0px;
 	text-align: center;
 }
 
 h2{
-	padding: 5 5 5 5;
-	color:white;
+	padding: 0px 5px 0px 5px;
+	color:#FFFFFF;
 	font: 22px verdana;	
 	background-color:#ADADAD;
 	border-radius: 7px;
 	
 }
 h3{
-	color: red;
+	color: #FE0000;
 	font: 20px verdana;
 }
 
@@ -52,17 +52,18 @@ nav ul li{
     list-style-type: none;
 }
 
-nav ul li a {
+nav ul li span {
 	display: inline-block;
 	border-radius:7px;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
 	text-decoration:none;
 	padding: 14px 16px;
 }
 
-nav ul li a:hover{
-	background-color: lightgrey;
+nav ul li span:hover{
+	background-color: #ECE9E9;
+	color: #2A00FE;
 }
 
 .photo{
@@ -86,7 +87,7 @@ nav ul li a:hover{
 }
 
 .info{
-	margin-top: 25px;
+	margin: 25px 0px 0px 0px;
 }
 
 .info ul{
@@ -95,7 +96,7 @@ nav ul li a:hover{
 
 .skills{
 	text-align: center;
-	margin: 0px 0px 20px;
+	margin: 0px 0px 20px 0px;
 }
 
 .skills ul li{
@@ -165,7 +166,7 @@ nav ul li a:hover{
 footer{
 	text-align:left;
 	font: 14px verdana;
-	color: blue;
+	color: #2A00FE;
 	background:#ADADAD;
 	border-radius: 0px 0px 10px 10px;
 }
